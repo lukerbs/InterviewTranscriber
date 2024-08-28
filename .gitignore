@@ -1,0 +1,4 @@
+/audio_files/*.mp3
+/video_files/*.mp4
+/venv
+.env
