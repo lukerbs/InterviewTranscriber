@@ -1,0 +1,137 @@
+Certainly! Below is the transcript broken down based on my interpretation of the interviewer and interviewee:
+
+**Interviewer**: All right, we can dive in then. Can you please describe to me your role and key responsibilities? 
+
+**Interviewee**: Yeah, so I am the Inventory Manager over here in the Riverside campus. I also oversee operations, for example, right now we have an Operations Manager who is on vacation for the week, so I'm overseeing his operation as well. I'm new to the inventory, I actually used to run an operation, used to be an Operations Supervisor, so I'm familiar with Metrics 1, checking the turn times, our PPH, that's something that's been brought up a couple of times already as well when I was in operations, and now as Inventory, I actually use the Inventory Health KPIs a lot, so I can keep track of my team and try to improve our KPIs there.
+
+**Interviewer**: How long have you been an Inventory Manager? 
+
+**Interviewee**: I want to say it's been a little bit over a month.
+
+**Interviewer**: Oh, okay, so it's recent. 
+
+**Interviewee**: Yes.
+
+**Interviewer**: Okay. And how long would you say you've been Operation Manager, more in the operations side? 
+
+**Interviewee**: I was a Supervisor for about three years.
+
+**Interviewer**: Okay. Did you used to use Metrics 1 a lot more as an Operations Supervisor, or do you use it now more as an Inventory Manager? 
+
+**Interviewee**: I would say I would use it a lot. I use more functions of it now, more of the key performance indicators now than I did when I was in operations. I would probably just utilize mostly the pallets per hour and the turn times. That's usually what the focus was.
+
+**Interviewer**: Okay, so if you can tell me a little bit, in terms of your job and your responsibilities, how does it relate to the use of Metrics 1? How do you use that being an Inventory Manager? 
+
+**Interviewee**: As an Inventory Manager, you guys have a drop menu. I have it open right now, actually. It's called Inventory Health. 
+
+**Interviewer**: Okay. 
+
+**Interviewee**: That is something that helps determine whether our inventory is doing good or whether it needs improvements. That is what I use a lot on our side as an Inventory Manager. Some key features that I concentrate a lot and try and work with the guys, my team in, is, let's see, I have it open here. Do not find pallets. That's something that's in there. It lets me know how many pallets my team did not find the previous day. In the warehouse, we call it NIL, not in location. That's an issue for orders. We can't find a pallet. We can't fulfill the order. We probably got to grab another pallet and risk the item going out of rotation. I try to keep track of that a lot with my team. Another one we do is something you guys have here called Waiting on Drop Time, which means how long I had a team member just standing around waiting for a pallet to be dropped so they can pick from it. I look at what we're at at the moment, and it's at nine hours. It's a little concerning because nine hours, that's a whole team member there that I either need or just trying to figure out where the disconnect is there so we don't have people standing around for nine hours.
+
+**Interviewer**: Yeah, that totally makes sense. Metrics 1 is something that can help you determine how many pallets are missing. It tells you, does it give you any more details in terms of which pallets are missing, or does it give you just the number? Also, does it give you anything about the why's?
+
+**Interviewee**: No, it does not, actually. Our location is unique. I work in a place where we have one, two, three, about four different operations. We're a campus. It's three different buildings, and we're on four different operations, but we're all under one cost center. It just groups everything up together. It doesn't break it up by customer, or it doesn't break it up by team member. That makes it a little harder where me and the inventory supervisor have to dig a little extra and see which operation is the one that's having the biggest issue with NILs, not in location pallets.
+
+**Interviewer**: I see. What kind of other tools do you use to determine this type of information? 
+
+**Interviewee**: The research is done through our connect system, through our LINOS, which is our WMS system, our Warehouse Management System. Yeah, so that's where we usually go in and try to determine where the 16, as an example, if I had 16 not in location pallets yesterday, we would go in there and try to see where it came from, and then try to zero in on the operation that's giving us the most issues and talk to the managers and whatnot.
+
+**Interviewer**: And for the not in location, no, no, that's what we just talked about, the waiting on drop time, where do you go for more information about that? Is it also on connect?
+
+**Interviewee**: Yeah, that one, I got to do that. And we also do a little bit of visual management there where either me or the inventory manager go in the freezer or we do some camera work and try to see exactly where the connect is there. We're newer to our roles, so we're trying to improve these numbers.
+
+**Interviewer**: Yeah.
+
+**Interviewee**: Something I did find with that is probably I have to open up a ticket because I have something that's been sitting there from the 18th that's opening. I feel like that's increasing our time in there.
+
+**Interviewer**: I see. Yeah. How accurate do you think this information in Metrix One is?
+
+**Interviewee**: Do you want my honest opinion?
+
+**Interviewer**: Yes, please.
+
+**Interviewee**: I've worked with our pallets per hour, our PPH, and I was an operations supervisor. And me and the operations manager were frustrated because the refresh rate, I don't know how often the data gets refreshed, but at one point we're probably, today I can say my team moved above five pallets an hour. We're like, okay, that's a good number. And I come in tomorrow and that number decreased to 3.9, and we're like, what? How? It doesn't make any sense to us. So I would say the refresh rate. And we try to compare it to our WMS because apparently everything gets pulled from Connect to Metrix One, at least that's what I've heard. The information in there seems to be updating every two and three days as well.
+
+**Interviewer**: So is the information accurate on Connect? Or is it also not refreshed? 
+
+**Interviewee**: It's also inaccurate on Connect.
+
+**Interviewer**: So where do you go to get the accurate information? 
+
+**Interviewee**: We just have to wait a day or two for the information to update. And then we can get our real numbers. It doesn't help. If it was more real time, it would be more helpful.
+
+**Interviewer**: Oh, yeah. How would you say it affects your work and efficiency having to wait a day or two for the information to be accurate?
+
+**Interviewee**: As far as work, I would say it gives us – if we had that accurate information, it would give us a better idea of – give me one second. I'm getting a call. 
+
+**Interviewer**: Sure. 
+
+**Interviewee**: Okay. But I would say we have the information of PPH in real time, which is pallets per hour. If we have that in real time, it would help us determine or figure out our labor a little better for the day. Or as we go, we know, hey, we're not going to hit our mark. It's a little slower day. Let's start sending people home. And we'll try to figure out the operation because they want us to sustain a certain pallet per hour number according to our budget. It's hard to try and maintain that when the stuff takes about a day, two or three days to update.
+
+**Interviewer**: Are people there – I don't know this information, so I'm trying to kind of paint the picture. So are people there paid by the hours? Therefore, if you know it's a slow day and you send them home early, then you're paying whatever money from your budget? 
+
+**Interviewee**: Yeah. So it can help reduce overtime. Or it can tell us, hey, have these guys stay a little longer. We had our pallets per hour need to average about 4.5. We can say, hey, yesterday we had 20 trucks. Today we have 24. Yesterday we were at 4.5. So this lets us know that in order to sustain that, we have four more trucks. We need to have an extra body or keep a person or two overtime.
+
+**Interviewer**: Okay. And what happens when you don't have enough people to help with the 24 trucks and you have just enough people for 20? What happens to those four trucks? 
+
+**Interviewee**: They run a risk of running late, running behind. Our little standard is a two-hour turn time on trucks. When the truck gets here, we have two hours to pick the pallets, drop them, run them to staging, and load them.
+
+**Interviewer**: Can you off the top of your head think of an example of when something like this happened and just kind of walk me through it? 
+
+**Interviewee**: Honestly, I do not have an example. Just because we know we have to follow our KPIs on Metrics 1. But if I'm being frank and honest with you, it's not something we take as serious information just because of what I'm telling you. It's not updating in real time. The numbers fluctuate for us. We can see it today, and the number is one thing. And then when we log in back tomorrow or two days from now, the number is going to change. So as far as our labor planning goes, if we just look at our workload, try to add all of our cases that we have for that day or pallets. Say, for example, we have 80 pallets to work on for the day. I have eight people, and I know that these eight people can do 100 pallets each. All right, cool. It's going to be a good day. We're going to hit our mark.
+
+**Interviewer**: I guess, what is your source of truth? How do you do labor planning? How do you identify how many trucks are going to be here, how many people? Like, where do you go to get that information if Metrics 1 is not always accurate nor is connected? So where do you get all the information you need to perform or do your work? 
+
+**Interviewee**: Well, for current work, Connect's pretty accurate. Like, let's say if I'm looking at the schedule right now, Connect says you have 24 trucks scheduled, and these 24 trucks are going to equal a total of 400 pallets. That's pretty accurate. What do you call it? The daily, day-to-day is pretty accurate.
+
+**Interviewer**: Okay. If Metrics 1 was accurate as well, how would it benefit you using Metrics 1? 
+
+**Interviewee**: I would say it would help us hit the goals that, you know, Lineage has for us. Yeah, because right now we're kind of trying to just stab in the dark, you know, per se, or we have to figure out our own PPH. If we had something that updated in real time, we can see where our failures were, you know, as operations people, you know, to plan for the day, you know, why we couldn't hit our daily PPH that is required, why our turn times fell, you know, so forth.
+
+**Interviewer**: I see. So you said that you need to update your own KPIs. And figure out the little points that didn't work, points where it worked, and so on. How long do you think that process takes for you to figure it out? 
+
+**Interviewee**: So how I do it to get an accurate count on my end, and then so does Metrics 1, is I would look at how many lines, you know, which is pallets, you know, case pick, all of that. I would look at how many of those I had in one day. And this includes inbounds and outbounds. And I say, okay, I had, you know, 800 lines. I had eight people here for eight hours each. And, you know, just do the math breakdown there. You know, each person took 100, you know, cases. It would be – let me do my math thing. And I have it here, my little breakdown.
+
+**Interviewer**: I would say it's just like on average, how long does this little process take? 
+
+**Interviewee**: I would say it takes about 15 minutes for my day.
+
+**Interviewer**: Fifteen, okay. Yeah. And do you know how many inventory managers are in each campus? 
+
+**Interviewee**: No. The only campus that I know of that's next, you know, up the street from us is Mira Loma. And they have one there. I'm not sure where the other inventory managers would be. I think there's one in Hunter Park. That's a good one. 
+
+**Interviewer**: Yeah. So is it like each building has an inventory manager or each campus has an inventory manager?
+
+**Interviewee**: It's up to the GM. The reason why I'm an inventory manager is because, like I said earlier, we have four operations. And each operation has between one to three inventory team members. 
+
+**Interviewer**: I see. Okay. All right. This is good information. Let's say I'm new to the team. How would you explain to me the use of Metrix One? 
+
+**Interviewee**: If you were new to the team, let me see. I would say, you know, the use of Metrix One, I mean, obviously, you know, as a company, we have, you know, these KPIs, key performance indicators. If we hit them, you know, we know that we're doing good. So try to keep on track with those. And, you know, I would indicate, I would use those, you know, where we are failing and we need improvement, you know. And, you know, that would help us pinpoint, you know, or focus in one, you know, area instead of trying to, you know, go at every problem, you know, focus. For example, we have right now are waiting on drops, which is a very long time. It's something that me and my whole team are now looking at, you know, an area that we want to improve on. Because like I said, when you see nine hours there, you know, that's a whole team member that is, you know, unaccounted for, you know, around for nine hours. So I brought it over to I brought it up to my team. I showed them how it worked. And it's, you know, it says here that we're waiting for nine hours. That's a whole person. They bring into the warehouse so we can avoid this number from happening or reducing it. 
+
+**Interviewer**: Yeah. Would you say that it's easy or hard to train a new member on using Metrix one? 
+
+**Interviewee**: That's a little bit of explaining. I mean, the thing that the people always want to know is, you know, how is this data true? Where is this data pulled from? What exactly do they use for this data? People are very skeptical of believing the numbers they see on there.
+
+**Interviewer**: Yeah, that makes sense. Okay. So it's like you've got to build that trust eventually with using Metrix one. 
+
+**Interviewee**: Yes.
+
+**Interviewer**: What would you say the average time spent using Metrix one in your single process? 
+
+**Interviewee**: I would say I use Metrix one first thing in the morning, you know, to see our inventory health, see where we stand, how we did for the week, how we're doing for the week, how we did for the day, the previous day, and, you know, try to see where areas of weaknesses are. And I do that for my first shift. I came in at five in the morning, so I work with the end of my third shift guys and my first shift guys, and then I try to view it again in the afternoon around 1.30 or 2 so I can speak with my team. No, the first shift guys towards the end of the shift and my second shift guys towards the beginning of the shift.
+
+**Interviewer**: When do you believe to trust the information you get? You log in first thing in the morning, you see information. How do you go about understanding if that's accurate or not? 
+
+**Interviewee**: I think, you know, it's just something that we've been working on. I've been working with Metrix one for the past, what is it, three years and a couple months. And, you know, it's just an understanding that the information is not going to be accurate the day before, I mean the day prior or two days prior, but it would be accurate a week from now. So that's usually when I trust the information, you know. Whatever happened last week, I know I can believe.
+
+**Interviewer**: I see. So it only works if you're logged in and you're looking at last week's information, but not logging in and looking at today or yesterday's information.
+
+**Interviewee**: No, it's going to be a little inaccurate. Maybe Monday's is going to be accurate, but, yeah, no. Last night is going to be inaccurate and whatever is happening right now in real time.
+
+**Interviewer**: I see. Yeah. I'm trying to understand how important it is to know the daily information versus the weekly information. So the daily, the fact that it's inaccurate can cause staffing issues, right?
+
+**Interviewee**: Yes.
+
+**Interviewer**: Okay. I see. Okay. Which aspect of Metrics 1 do you think is the most time-consuming? 
+
+**Interviewee**: You know, something that's been rolled out to us when I was in operations was trying to get our pallets per hour number up. So I would say just, you know, trying to maintain that number, it's a lot of time and thinking goes into that, you know, whether it's with our labor planning or, you know, trying to see where our shortcomings are, you know, because we have to research, okay, so my guy worked this many hours. My team worked these many hours, and I moved these many pallets this day. So we have to log into Connect and Linos and, you know, try to pull information there. We have to go into Dayforce, and Dayforce is what we use for the payroll and track the total hours worked by our team, you know, in order for us to get, you know, our number, which still doesn't match Metrics 1. So the whole pallets, the whole PPH thing is something that's been pushing us, and we're trying to improve on it here as a campus, but I feel like whatever Metrics 1 is pulling is not helping us,
