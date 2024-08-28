@@ -57,6 +57,7 @@ with open('./prompts/prompt.txt', 'r') as file:
 
 print('Splitting raw transcript into two speakers. This may take a minute...')
 prompt = prompt.replace('TRANSCRIPT_HERE', raw_transcript)
+
 final_transcript = chatgpt(prompt=prompt)
 filename = './output_transcripts/final_transcript.txt'
 with open(filename, 'w') as file:
