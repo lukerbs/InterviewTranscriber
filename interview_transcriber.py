@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinter.scrolledtext import ScrolledText
+from tkinter import ttk
 import threading
 
 from pydub import AudioSegment
@@ -24,24 +25,36 @@ def select_file():
 # Function to handle transcription process
 def transcribe_interview():
     def run_transcription():
-        # Convert the video file to audio (mp3) here if necessary
-        # Assuming AUDIO_FILE is already an audio file for simplicity
+        # Start progress bar
+        progress.config(mode='indeterminate')
+        progress.start()
 
-        raw_transcript = transcribe_audio(audio_file=AUDIO_FILE)
-        speaker_segmented_transcript = segment_by_speaker(transcription=raw_transcript)
+        try:
+            # Convert the video file to audio (mp3) here if necessary
+            # Assuming AUDIO_FILE is already an audio file for simplicity
 
-        # Update UI with transcription
-        transcription_display.delete(1.0, tk.END)
-        transcription_display.insert(tk.END, speaker_segmented_transcript)
+            raw_transcript = transcribe_audio(audio_file=AUDIO_FILE)
+            speaker_segmented_transcript = segment_by_speaker(transcription=raw_transcript)
 
-        # Enable the save button after transcription is complete
-        save_button.config(state=tk.NORMAL)
-        messagebox.showinfo("Transcription Complete", "The transcription has been completed.")
+            # Update UI with transcription
+            transcription_display.delete(1.0, tk.END)
+            transcription_display.insert(tk.END, speaker_segmented_transcript)
+
+            # Enable the save button after transcription is complete
+            save_button.config(state=tk.NORMAL)
+            messagebox.showinfo("Transcription Complete", "The transcription has been completed.")
+        except Exception as e:
+            messagebox.showerror("Error", f"An error occurred during transcription: {e}")
+        finally:
+            # Stop progress bar
+            progress.stop()
+            progress.config(mode='determinate', maximum=100, value=100)
+            transcribe_button.config(state=tk.NORMAL)
 
     # Indicate that transcription is in progress
     transcription_display.delete(1.0, tk.END)
     transcription_display.insert(tk.END, "Transcription in progress... Please wait.")
-    transcribe_button.config(state=tk.DISABLED)
+    transcribe_button.config(state=tk.DISABLED)  # Disable button and reset color
 
     # Run transcription in a separate thread to prevent UI freezing
     transcription_thread = threading.Thread(target=run_transcription)
@@ -79,6 +92,10 @@ transcribe_button.pack(pady=10)
 # Transcription display area
 transcription_display = ScrolledText(root, wrap=tk.WORD, width=80, height=20)
 transcription_display.pack(pady=10)
+
+# Progress bar
+progress = ttk.Progressbar(root, orient=tk.HORIZONTAL, length=300, mode='indeterminate')
+progress.pack(pady=10)
 
 # Save to file button
 save_button = tk.Button(root, text="Save to File", state=tk.DISABLED, command=save_transcript)
