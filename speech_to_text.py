@@ -1,41 +1,15 @@
-from openai import OpenAI
 from pydub import AudioSegment
-from dotenv import load_dotenv
 import os
 import re
 
-load_dotenv()
+from chatgpt import chatgpt, transcribe_audio
+
 AUDIO_FILE = '/Users/jsandor/Projects/Connect/Rodney Jackson and Sou Sassi Cole-20240524_120253-Meeting Recording.mp3'
 
-# Load the OpenAI API key from .env file
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if not OPENAI_API_KEY:
-    raise ValueError("Missing OpenAI API Key. Please check your .env file.")
-# Initialize openai API client
-client = OpenAI(api_key=OPENAI_API_KEY) 
-
-# Create function for chat GPT text completion calls
-def chatgpt(prompt: str, model="gpt-4o", max_tokens=None):
-    completion = client.chat.completions.create(
-        model=model,
-        max_tokens=max_tokens,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    response = completion.choices[0].message.content
-    return response
-
-
 # Read audio file and create text transcription with Open AI API 
-audio = open(AUDIO_FILE, "rb")
-print("Processing audio file with openAI speech to text. This may take a minute...")
-raw_transcript = client.audio.transcriptions.create(
-  model="whisper-1", 
-  file=audio,
-  response_format="text"
-)
-print("Raw transcript has been generated.")
+raw_transcript = transcribe_audio(audio_file=AUDIO_FILE)
 
-# Save raw transcript to file 
+# Save raw transcript to a .txt file 
 raw_transcript_filename = "./output_transcripts/raw_transcript.txt"
 with open(raw_transcript_filename, 'w') as file:
     file.write(raw_transcript)
@@ -50,12 +24,10 @@ chunks = [
 ]
 
 # Updated prompt template
-
 with open("./prompts/prompt_v2.txt", "r") as file: 
     prompt_template = file.read()
 
 print('Processing transcript chunks. This may take a few minutes...')
-
 # Process each chunk
 processed_chunks = []
 for i, chunk in enumerate(chunks, 1):
