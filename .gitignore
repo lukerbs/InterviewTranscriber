@@ -2,3 +2,5 @@
 /video_files/*.mp4
 /venv
 .env
+/output_transcripts/*.txt
+/output_transcripts/*.json

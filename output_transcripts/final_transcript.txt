@@ -1,137 +1,181 @@
-Certainly! Below is the transcript broken down based on my interpretation of the interviewer and interviewee:
+Interviewer: All right, OK, well again, thank you for being here. I'm just going to go ahead and dive right in. Can you describe to me your role in your responsibilities, please?
 
-**Interviewer**: All right, we can dive in then. Can you please describe to me your role and key responsibilities? 
+Interviewee: Oh my, so currently my title's operations business partner. Ultimately, I work for Special Operations and we do pretty much anything and everything. My main projects over the course of the last two years have been the Connect and the Connect RF rollout to the sites. And then I'll be transitioning here in a few months once we're done with the rollout into Lenoes Manual and the Hazleton automated site. But we pretty much do anything that we're asked to do, and we help sites, we fight fires, you know, anything that's needed.
 
-**Interviewee**: Yeah, so I am the Inventory Manager over here in the Riverside campus. I also oversee operations, for example, right now we have an Operations Manager who is on vacation for the week, so I'm overseeing his operation as well. I'm new to the inventory, I actually used to run an operation, used to be an Operations Supervisor, so I'm familiar with Metrics 1, checking the turn times, our PPH, that's something that's been brought up a couple of times already as well when I was in operations, and now as Inventory, I actually use the Inventory Health KPIs a lot, so I can keep track of my team and try to improve our KPIs there.
+Interviewer: OK. How does your role entail, or your responsibilities, how does it connect?
 
-**Interviewer**: How long have you been an Inventory Manager? 
+Interviewee: Oh, it's going to be weird saying this. To Connect. Well, I led the team that rolled it out to the sites. Ultimately, it was me and off and on two other people. And ultimately, we were the core communicator back to the dev team from the local sites as we were rolling out of any issues. If there was an enhancement that we saw that would be a good opportunity, we threw that out there. So we were heavily, heavily involved in Connect and the Connect rollout with each of the sites. And we're doing essentially the same thing now with Connect RF.
 
-**Interviewee**: I want to say it's been a little bit over a month.
+Interviewer: Is Connect something that you're still using heavily?
 
-**Interviewer**: Oh, okay, so it's recent. 
+Interviewee: Yes. Yeah. Not planned, but somehow being part of this project, we've become the subject matter experts.
 
-**Interviewee**: Yes.
+Interviewer: So can you tell me a little bit how you use it on a daily basis?
 
-**Interviewer**: Okay. And how long would you say you've been Operation Manager, more in the operations side? 
+Interviewee: So ultimately, we're in there all the time. We always get asked questions about, you know, how certain systems or certain things are doing. Here's a PID. We can't seem to get it to go to an order. It's stuff like that. Another big piece of it is, hey, we would like the system to do this for us. Can it? And then we do two things. We kind of dive in. If we don't know, we dive in and try to figure out if it can. And if we know, we explain it, explain how to turn it on, if it's a feature that's in there. Unfortunately, there are a lot of pieces of Connect that our teams just don't understand. They don't know how it works. They don't know how it could benefit them. That's a lot of the reason why we wrote the Operations Excellence Playbook this past year, was really to take all of those things that the system does and how it works and the guardrails and the settings and how the buildings can ultimately benefit from them or how they may be hindering the site. Maybe they need to be turned off. So we're in there, myself and Rob Mowry, who I work closely with doing the rollout. We're in there all day, every day, almost every site. I touch just about every site on a regular basis, at least once every few weeks, just because somebody comes up with a question. And like I said, we've become that go-to if they have an issue or if something doesn't work the way that they think it should or if they just have a question about how the system works.
 
-**Interviewee**: I was a Supervisor for about three years.
+Interviewer: OK, so you're not really a user in the sense of an outside user.
 
-**Interviewer**: Okay. Did you used to use Metrics 1 a lot more as an Operations Supervisor, or do you use it now more as an Inventory Manager? 
+Interviewee: So in terms of an end user or a site, no, not necessarily. I don't go in and create orders. I know how to. I don't do it. We do a lot of research. We do do a lot of research, like pallet research, lot research, because we get emails daily from sites like, hey, we can't figure out what this is doing. So then we have to go in and try to help figure out why it's not working the way that it's supposed to. But in terms of like creating orders, shipping orders, receiving orders, that's hit or miss, depending on whether a site reaches out or not.
 
-**Interviewee**: I would say I would use it a lot. I use more functions of it now, more of the key performance indicators now than I did when I was in operations. I would probably just utilize mostly the pallets per hour and the turn times. That's usually what the focus was.
+Interviewer: I see. So that Operation of Excellence book, is that like a training book?
 
-**Interviewer**: Okay, so if you can tell me a little bit, in terms of your job and your responsibilities, how does it relate to the use of Metrics 1? How do you use that being an Inventory Manager? 
+Interviewee: So. We knew there's a lot of people that knew there was a gap, especially in the legacy Millard buildings. Of there's a lot of subject matter experts, but none of them, none of them knew everything. So you had a lot of tribal knowledge, you had a lot of individuals that knew certain things, and the goal was to close that gap. So we literally went through from start to finish, inbound to outbound, and everything in between, including inventory, and literally wrote as step by step without getting too far into the weeds as we could. So that ultimately a GM, a supervisor, an ops manager, you know, more, I think it was geared towards the GM and possibly an office manager, could take that document if they were new to our organization and new to Connect, and ultimately get a big enough of a foundation that if somebody came to them and either asked them a question or tried to explain something away, so to speak, they were having an issue. So maybe they're trying to make it less than what it is. It gives them the foundation to be able to say that doesn't make sense. And here's what I understand the system to do and how it works. I would have when I was a GM, I would have killed to have something like this.
 
-**Interviewee**: As an Inventory Manager, you guys have a drop menu. I have it open right now, actually. It's called Inventory Health. 
+Interviewer: What, six years ago now?
 
-**Interviewer**: Okay. 
+Interviewee: Six years ago when I came to Lineage, because I had to learn all that stuff myself. And, you know, there's certain people that just know certain things really well. So you learn who that go-to is, but nobody had ever taken it and actually documented it into a document nowadays.
 
-**Interviewee**: That is something that helps determine whether our inventory is doing good or whether it needs improvements. That is what I use a lot on our side as an Inventory Manager. Some key features that I concentrate a lot and try and work with the guys, my team in, is, let's see, I have it open here. Do not find pallets. That's something that's in there. It lets me know how many pallets my team did not find the previous day. In the warehouse, we call it NIL, not in location. That's an issue for orders. We can't find a pallet. We can't fulfill the order. We probably got to grab another pallet and risk the item going out of rotation. I try to keep track of that a lot with my team. Another one we do is something you guys have here called Waiting on Drop Time, which means how long I had a team member just standing around waiting for a pallet to be dropped so they can pick from it. I look at what we're at at the moment, and it's at nine hours. It's a little concerning because nine hours, that's a whole team member there that I either need or just trying to figure out where the disconnect is there so we don't have people standing around for nine hours.
+Interviewer: Yeah. Okay. So I guess I will have to shift my questions a little bit since you're not really an end user. However, it seems like you have interacted with a lot of end users. Do you recall what are some of their main issues with Connect?
 
-**Interviewer**: Yeah, that totally makes sense. Metrics 1 is something that can help you determine how many pallets are missing. It tells you, does it give you any more details in terms of which pallets are missing, or does it give you just the number? Also, does it give you anything about the why's?
+Interviewee: So we, you know, I don't want to take anything away from the dev team. They did a phenomenal job of building a very robust system. The Lineage shield is a beautiful, beautiful shield. Unfortunately, that Lineage shield has also become known as not such a great thing because it reminds the team of how slow the system is running. So the biggest feedback that I've received in a lot of cases is the steps to do certain things in MRS are, they're a lot slower in Connect still to this day. And they're way better than they were, you know, a year ago in March. We still have some opportunities with screen transitions, pop-ups, you know, how things, I guess, transition through things. You know, people got to a point in MRS where they could use the quick keys and they could actually hit the quick keys faster than the screens would transition. However, the screens would continue to transition. In Connect, if you get ahead of yourself, the screens will actually freeze on you. They won't, they won't transition. So that's a big, big one. I think it's still that user, that user experience of just feeling like they can get through those screens quickly, get to where they need to go. Another one is it's still not, you know, MRS gave you the ability to move columns. So if you wanted to organize a specific screen, you know, if you wanted to sort by lot, it would move that lot to your first column and kind of organize things. And that was a huge win for our team. The scheduling screen gave you the ability to split. So you could split the screen, leave your BOL number in one of the windows, and essentially then move the other window to whatever information you wanted to know or see. So it gave you the ability to kind of position things. And we had asked for that. We've been, we've been asking for that for, from the start of the project. And they kept saying, well, yeah, maybe, yeah, maybe, yeah, maybe. And then here we are, and the HyperCare team's no longer working on Connect. And that was one of the things that was never, never fixed. So having that ability to make the screen the way that the team member wants it, that works best for them to drive their business, I think is a huge thing that the team still wants and craves. I know I do, because even when I'm researching and doing things, you know, there's times that you probably wouldn't have to have two different screens open if you had the ability to manipulate some of those columns. So that was a big one. Another one is the buttons. We had asked, so you have those buttons, and then you have the ellipsis that's off to the edge. We had asked for them to take as many of those buttons and put them under the line as humanly possible so that you don't have to hit that ellipsis and search for things. So that's, I mean, it's all things that, like, how can we, how can we put all the tools in the top of the toolbox and not have to have people dig below the top to get to what they need? I think it's one of the things that kind of needs to be looked at a little bit closer. Because at the end of the day, there was a few times where the dev team was like, oh, that looks normal, and that's the speed that's going to go. But what I don't think that they were equating is that was one transaction. These sites are doing hundreds of transactions in a day, and any time that you add to a transaction then gets extrapolated out to hundreds of transactions. And so ultimately, any delays or anything that requires them to spend more time on something is a huge dissatisfier with the team. I know that for sure.
 
-**Interviewee**: No, it does not, actually. Our location is unique. I work in a place where we have one, two, three, about four different operations. We're a campus. It's three different buildings, and we're on four different operations, but we're all under one cost center. It just groups everything up together. It doesn't break it up by customer, or it doesn't break it up by team member. That makes it a little harder where me and the inventory supervisor have to dig a little extra and see which operation is the one that's having the biggest issue with NILs, not in location pallets.
+Interviewer: So it seems that you have acted like an end user to perform some research, right? So getting back into that state of mind, what would you say your biggest frustrations were dealing with Connect?
 
-**Interviewer**: I see. What kind of other tools do you use to determine this type of information? 
+Interviewee: I think it's the digging that you have to do. I think one of the hopes was that it's similar to MRS, and that was the goal. The goal was to try to get it to a lift and shift, but I think having it on a website gives us a lot more capability. It is better than MRS from the searching standpoint, but I think we can make it better, like clicking on certain things and it being able to take you to the screen versus, you know, and I say that, like, if I'm on the PID screen and I'm searching by PID, how can I then click on the lot in that column? And maybe it takes me to a lot screen, or maybe it takes me to another screen to dig a little bit deeper, provides more information. I mean, we kind of did that with the buttons, but again, with the buttons, I have to click on the line, and then I might have to click on the ellipsis to find the buttons I'm looking for.
 
-**Interviewee**: The research is done through our connect system, through our LINOS, which is our WMS system, our Warehouse Management System. Yeah, so that's where we usually go in and try to determine where the 16, as an example, if I had 16 not in location pallets yesterday, we would go in there and try to see where it came from, and then try to zero in on the operation that's giving us the most issues and talk to the managers and whatnot.
 
-**Interviewer**: And for the not in location, no, no, that's what we just talked about, the waiting on drop time, where do you go for more information about that? Is it also on connect?
 
-**Interviewee**: Yeah, that one, I got to do that. And we also do a little bit of visual management there where either me or the inventory manager go in the freezer or we do some camera work and try to see exactly where the connect is there. We're newer to our roles, so we're trying to improve these numbers.
+Interviewer: ng for. So at the end of the day, the fewer clicks that I can make to get to the data that I need, I think it just goes back to that speed factor. Which aspect do you think is the most time consuming when it comes to Connect?
 
-**Interviewer**: Yeah.
+Interviewee: Entering orders.
 
-**Interviewee**: Something I did find with that is probably I have to open up a ticket because I have something that's been sitting there from the 18th that's opening. I feel like that's increasing our time in there.
+Interviewer: Really? Okay. Can you elaborate?
 
-**Interviewer**: I see. Yeah. How accurate do you think this information in Metrix One is?
+Interviewee: And I know they kind of stayed away from doing any changes there because they're trying to get the team to go toward the link, lineage link more, but for instance, again, when you were in MRS, you could transition very quickly through the different screens. There is lag. There's lag on just about every screen you try to get through in Connect. And if you're, for instance, if you're trying to pin an order by PID, and you have to do specific PIDs, it takes probably three times as long to build an order that way. Because you have various, you have other screens that you have to go through that you didn't necessarily have to go through at MRS. And then when you save, that gives you a pop up that says it's saved and then you have to click OK. And then you have to go back and then you have to start that process all over again. And there could be 26 plus lines on an order if it's by PID and that's 26 times that you have to do all those clicking, possibly more than that if you're in a building that has to combine pallets. And it's just all those pop ups. I could tell you since day one that has been a huge issue and a huge dissatisfier across the buildings is the pop ups and the lag time in between those screen transitions.
 
-**Interviewee**: Do you want my honest opinion?
+Interviewer: This is really good to know. Um, what was my next question? I totally lost my train of thoughts. Okay, actually, moving on to something else until I remember what I was going to say. It seems like you have interactions with a lot of end users. Do you think you'll be able to connect me to some of those people? Maybe give a few emails or something like that?
 
-**Interviewer**: Yes, please.
+Interviewee: Yeah, I can send you some people, some good people to go talk to.
 
-**Interviewee**: I've worked with our pallets per hour, our PPH, and I was an operations supervisor. And me and the operations manager were frustrated because the refresh rate, I don't know how often the data gets refreshed, but at one point we're probably, today I can say my team moved above five pallets an hour. We're like, okay, that's a good number. And I come in tomorrow and that number decreased to 3.9, and we're like, what? How? It doesn't make any sense to us. So I would say the refresh rate. And we try to compare it to our WMS because apparently everything gets pulled from Connect to Metrix One, at least that's what I've heard. The information in there seems to be updating every two and three days as well.
+Interviewer: All right. That would be really cool. Oh, yeah, I remember the question. What are other tools that you might or you feel like are needed to be used in conjunction with Connect?
 
-**Interviewer**: So is the information accurate on Connect? Or is it also not refreshed? 
+Interviewee: Um, I don't know if there are any. I mean, the buildings are forced to use Lineage Link because that's our scheduling and I do know that they're trying to gear that more towards taking the place of Link or taking the place of Connect for certain aspects. I know there's a lot of reporting tools out there and I know the reporting team is trying to work more towards gearing those into different platforms. There's the GMOB, GMIB that are in Excel sheets right now that most sites will use because it formats the data a little better than the scheduling screen. So that's probably a tool that they use in conjunction with Connect. They've been using the the doc dashboard as a tool in conjunction with Connect. Labor planning tool is another one that I know that they use in conjunction with Connect. LM, so Labor Management, is another one.  I think those are the big ones.
 
-**Interviewee**: It's also inaccurate on Connect.
+Interviewer: Any of these tools that they use because they don't like using Connect?
 
-**Interviewer**: So where do you go to get the accurate information? 
+Interviewee: GMOB and GMIB would be one that they probably use rather than using the scheduling screen on Connect because of the way that it's formatted.
 
-**Interviewee**: We just have to wait a day or two for the information to update. And then we can get our real numbers. It doesn't help. If it was more real time, it would be more helpful.
+Interviewer: Oh, can you tell me more about the scheduling screen of Connect?
 
-**Interviewer**: Oh, yeah. How would you say it affects your work and efficiency having to wait a day or two for the information to be accurate?
+Interviewee: Yeah, so that one is, you know, it's a little bit more complicated. Yeah, so that one is, that's where the whole moving columns around I think is a big thing.
 
-**Interviewee**: As far as work, I would say it gives us – if we had that accurate information, it would give us a better idea of – give me one second. I'm getting a call. 
+Interviewer: I see.
 
-**Interviewer**: Sure. 
+Interviewee: It's going to go into a site here real quick. If you want to share your screen or something, feel free, but give me some visuals.
 
-**Interviewee**: Okay. But I would say we have the information of PPH in real time, which is pallets per hour. If we have that in real time, it would help us determine or figure out our labor a little better for the day. Or as we go, we know, hey, we're not going to hit our mark. It's a little slower day. Let's start sending people home. And we'll try to figure out the operation because they want us to sustain a certain pallet per hour number according to our budget. It's hard to try and maintain that when the stuff takes about a day, two or three days to update.
+Interviewer: So this is Dodge City.
 
-**Interviewer**: Are people there – I don't know this information, so I'm trying to kind of paint the picture. So are people there paid by the hours? Therefore, if you know it's a slow day and you send them home early, then you're paying whatever money from your budget? 
+Interviewee: This is where I used to be the GM.
 
-**Interviewee**: Yeah. So it can help reduce overtime. Or it can tell us, hey, have these guys stay a little longer. We had our pallets per hour need to average about 4.5. We can say, hey, yesterday we had 20 trucks. Today we have 24. Yesterday we were at 4.5. So this lets us know that in order to sustain that, we have four more trucks. We need to have an extra body or keep a person or two overtime.
+Interviewer: Okay.
 
-**Interviewer**: Okay. And what happens when you don't have enough people to help with the 24 trucks and you have just enough people for 20? What happens to those four trucks? 
+Interviewee: I love how our security team decided that we needed to enter a password a bunch more times.
 
-**Interviewee**: They run a risk of running late, running behind. Our little standard is a two-hour turn time on trucks. When the truck gets here, we have two hours to pick the pallets, drop them, run them to staging, and load them.
+Interviewer: I know, I have to deal with that too. And since we spend so much, the special ops team spends so much time offsite.
 
-**Interviewer**: Can you off the top of your head think of an example of when something like this happened and just kind of walk me through it? 
+Interviewee: So I'm on a big, I'm not used to being on a bigger screen. There we go. That would probably be another thing. Come to think of it. So when I go, yeah, so normally on a laptop screen, this inbound is literally, if I'm at 100% inbound is under LinOS code. So if I'm at 100% inbound, I'm not going to be able to do anything. So if I'm at 100% inbound is literally, if I'm at 100% inbound is under LinOS connect. I mean, under it, you can't even see it because the screen doesn't resize well. And like, even if I go into, if I'm on a laptop screen, this won't show. And I actually have to hit a down arrow here to get this to show. And I click on, that wasn't the one I wanted to click on. But then I got to, cause I go into authorizations a lot. You have to click on an arrow here. Then you have to click on an arrow here. Actually, I could show you. I'll just share a different screen. It just does not adjust well at all. Do that. And then I'll share this one. So this is on my actual laptop. So you see, you see how the inbound is, is now under LinOS connect. And so this doesn't scroll. So I can't even get to the bottom of here right now. And if I click on configuration, I can't, I can't scroll there either. So what you have to do is come down here and you go to 90% and now that's on the screen. And so just to make sure.
 
-**Interviewee**: Honestly, I do not have an example. Just because we know we have to follow our KPIs on Metrics 1. But if I'm being frank and honest with you, it's not something we take as serious information just because of what I'm telling you. It's not updating in real time. The numbers fluctuate for us. We can see it today, and the number is one thing. And then when we log in back tomorrow or two days from now, the number is going to change. So as far as our labor planning goes, if we just look at our workload, try to add all of our cases that we have for that day or pallets. Say, for example, we have 80 pallets to work on for the day. I have eight people, and I know that these eight people can do 100 pallets each. All right, cool. It's going to be a good day. We're going to hit our mark.
+Interviewer: Oh yeah, that is not good.
 
-**Interviewer**: I guess, what is your source of truth? How do you do labor planning? How do you identify how many trucks are going to be here, how many people? Like, where do you go to get that information if Metrics 1 is not always accurate nor is connected? So where do you get all the information you need to perform or do your work? 
+Interviewee: Yeah, no, see, and here's the arrow. So I can click that and it goes down and then I can click that and now I can finally get to this. It's, it's not a good user experience. And I know this was one of the things that they had on their list, but I just don't, I think it just kind of fell to the wayside as they finish their project. But for the purposes of sharing this, I'm going to go ahead and move you back to a bigger screen.
 
-**Interviewee**: Well, for current work, Connect's pretty accurate. Like, let's say if I'm looking at the schedule right now, Connect says you have 24 trucks scheduled, and these 24 trucks are going to equal a total of 400 pallets. That's pretty accurate. What do you call it? The daily, day-to-day is pretty accurate.
+Interviewer: All right.
 
-**Interviewer**: Okay. If Metrics 1 was accurate as well, how would it benefit you using Metrics 1? 
+Interviewee: So when I talk scheduling screen and I'll even bring up the, here's what I could do too. So, of course, it's not on that screen. Gosh, darn it. So, where did you go? GMO. Here it is. So this was built seven, eight years ago. And it's been evolved ever since. And it's the GMOB. So if I come over here and I pick a site, like, I'll just, we'll keep it all in the same realm here. Dodge City, 14 day period refresh data. This goes back into the WMS server and pulls the data that I'm looking for. And then I come to Outbound Schedule. And so this is what it looks like. It's color-coded here. This is yesterday's orders. These are today's orders. And then this is what they've got scheduled for tomorrow. Or for tomorrow, well, it's the morning. And then what it does is it shows you the customer, customer name, confirmation, MBOL, all this great information. It shows you the arrival time stamp, when they start loading it, when they finish loading it, when it's signed out, when they start to pull it. Like, if they're pulling foals or cherry picks. It goes even further to tell you how many foals are on the order and how many cherry picks. And if there was case pick, this would populate as well. So it's a lot of really great information organized in a really great manner. And this is – sites use this to essentially know where they are at a given day, if trailers are here. So they – you know, the supervisor can go in here and know that all of their afternoon trucks are arrived and can be pulled into a door and loaded. They know they've got a team working on this one and a team working on this one. And then whoever was working on this one is done. So those are ready to be billed out. So a lot of really great information organized in a really good fashion. That's the GMOB.
 
-**Interviewee**: I would say it would help us hit the goals that, you know, Lineage has for us. Yeah, because right now we're kind of trying to just stab in the dark, you know, per se, or we have to figure out our own PPH. If we had something that updated in real time, we can see where our failures were, you know, as operations people, you know, to plan for the day, you know, why we couldn't hit our daily PPH that is required, why our turn times fell, you know, so forth.
+Interviewer: What was that?
 
-**Interviewer**: I see. So you said that you need to update your own KPIs. And figure out the little points that didn't work, points where it worked, and so on. How long do you think that process takes for you to figure it out? 
+Interviewee: That's the GMOB. And then there's a GMIB that has the same information for inbound. And I know there's been some conversations around eliminating that and making it more of a corporate report. But I know they haven't done that yet. This is the scheduling screen. So I think to really show this – let me do this. I don't know if I'm going to be able to – oh, I can. I know where I can get into. Ha-ha. I'm the one that shut down all the MRS access, so I'm trying to figure out who still has MRS. And there is a building. There is one building left.
 
-**Interviewee**: So how I do it to get an accurate count on my end, and then so does Metrics 1, is I would look at how many lines, you know, which is pallets, you know, case pick, all of that. I would look at how many of those I had in one day. And this includes inbounds and outbounds. And I say, okay, I had, you know, 800 lines. I had eight people here for eight hours each. And, you know, just do the math breakdown there. You know, each person took 100, you know, cases. It would be – let me do my math thing. And I have it here, my little breakdown.
+Interviewer: There we go. That's what I was waiting for. And when you say shut down MRS, I thought you were saying people were still kind of using it.
 
-**Interviewer**: I would say it's just like on average, how long does this little process take? 
+Interviewee: Not anymore. Not for – so what they've gone in, and for all these sites – Allentown, Mitchell, and Allentown, Ruppsville were the last two buildings, and I just sent the ticket in for them this morning. They've basically gone in, and they've changed the configuration in the background to where their MRS points. So if any one of those sites now tries to go into MRS, it basically will – it'll air out, and they won't let them in. The only site that still has it is Olathe, and then Mira Loma still has it as well. So one of the big, big, big things is – so here is the – here's the MRS version. And some of the different things you can do is I can come over here, and I can click on time, and it just moved. That's my main column now. If I click back on confirmation, confirmation just became my main column. It just blanked out on me. There we go. But then I can also – if I come right here, I can also do this.
 
-**Interviewee**: I would say it takes about 15 minutes for my day.
+Interviewer: Oh, I see.
 
-**Interviewer**: Fifteen, okay. Yeah. And do you know how many inventory managers are in each campus? 
+Interviewee: Which I could then – if I get out of this, I'll go back in here so that it's organized the way that it normally is with confirmation first. So if I come over here and do this, I now have confirmation right here. And then I can put whatever I want to in this window. So what a lot of them will do is they would put the confirmation there and possibly even, like, trailer number or whether it was live or dropped. They'd kind of organize that however they want to. And then they'd come over here and put essentially arrive, start, finish. So this right here, they were using as the GMOB.
 
-**Interviewee**: No. The only campus that I know of that's next, you know, up the street from us is Mira Loma. And they have one there. I'm not sure where the other inventory managers would be. I think there's one in Hunter Park. That's a good one. 
+Interviewer: I see.
 
-**Interviewer**: Yeah. So is it like each building has an inventory manager or each campus has an inventory manager?
+Interviewee: Because it gave them the same information. Now, if I go back to Connect, I have confirmation, and I have time, arrive, start, finish, and trailer number. So these, we actually – towards the beginning of this project, we actually asked them to move these because they were, like, way over here off the scr
 
-**Interviewee**: It's up to the GM. The reason why I'm an inventory manager is because, like I said earlier, we have four operations. And each operation has between one to three inventory team members. 
+Interviewer: But there are other things that would be very helpful. You've got load number, but it's way down here. If you had trailer number on here or even comments were in different places.
 
-**Interviewer**: I see. Okay. All right. This is good information. Let's say I'm new to the team. How would you explain to me the use of Metrix One? 
+Interviewee: So they can't split this screen. So it kind of really limits how they can use it. Because one of the things we were asking for was give me the ability to click and drag, you know, if I want to move trailers over here and if I want to move – and then have it stay that way for me for that particular day or shift or even have it a permanent setting if that's even possible. To give the user the ability to kind of control the data however they want to control the data. Just customize it for them.
 
-**Interviewee**: If you were new to the team, let me see. I would say, you know, the use of Metrix One, I mean, obviously, you know, as a company, we have, you know, these KPIs, key performance indicators. If we hit them, you know, we know that we're doing good. So try to keep on track with those. And, you know, I would indicate, I would use those, you know, where we are failing and we need improvement, you know. And, you know, that would help us pinpoint, you know, or focus in one, you know, area instead of trying to, you know, go at every problem, you know, focus. For example, we have right now are waiting on drops, which is a very long time. It's something that me and my whole team are now looking at, you know, an area that we want to improve on. Because like I said, when you see nine hours there, you know, that's a whole team member that is, you know, unaccounted for, you know, around for nine hours. So I brought it over to I brought it up to my team. I showed them how it worked. And it's, you know, it says here that we're waiting for nine hours. That's a whole person. They bring into the warehouse so we can avoid this number from happening or reducing it. 
+Interviewer: Okay.
 
-**Interviewer**: Yeah. Would you say that it's easy or hard to train a new member on using Metrix one? 
+Interviewee: Right. That makes a little sense. Because if you did that, it would more than likely – now, there would be some diehard users that just wouldn't change from this because they like it. But it would eliminate probably the need to have this particular document. Because all – it's the exact same information. It literally is pulling from the same table. The only difference is this is organized in a fashion that gives them the ability to kind of – and they can, if I want to come in here and hide this and move some stuff around, and they do that. They will manipulate this and use it as their daily schedule essentially.
 
-**Interviewee**: That's a little bit of explaining. I mean, the thing that the people always want to know is, you know, how is this data true? Where is this data pulled from? What exactly do they use for this data? People are very skeptical of believing the numbers they see on there.
+Interviewer: Do you have a rough estimate idea about how many people end up using GMOB instead of Connect scheduling?
 
-**Interviewer**: Yeah, that makes sense. Okay. So it's like you've got to build that trust eventually with using Metrix one. 
+Interviewee: Most buildings. I would tell you most buildings use this document over the schedule screen.
 
-**Interviewee**: Yes.
+Interviewer: Interesting. That's good to know. All right. I feel like I might end up reverting back to you every now and then for some questions because you seem to have a lot of knowledge about Connect. I'm just starting to get to know about it. So if you don't mind being bugged every now and then.
 
-**Interviewer**: What would you say the average time spent using Metrix one in your single process? 
+Interviewee: Nope. It's what I love about my job, getting to do that kind of stuff.
 
-**Interviewee**: I would say I use Metrix one first thing in the morning, you know, to see our inventory health, see where we stand, how we did for the week, how we're doing for the week, how we did for the day, the previous day, and, you know, try to see where areas of weaknesses are. And I do that for my first shift. I came in at five in the morning, so I work with the end of my third shift guys and my first shift guys, and then I try to view it again in the afternoon around 1.30 or 2 so I can speak with my team. No, the first shift guys towards the end of the shift and my second shift guys towards the beginning of the shift.
+Interviewer: I love that. I love to hear that. So in terms of training, let's say I'm a new employee and I'm told that I need to use this. How easy do you think it is to just become a super user?
 
-**Interviewer**: When do you believe to trust the information you get? You log in first thing in the morning, you see information. How do you go about understanding if that's accurate or not? 
+Interviewee: It depends on the person. And the reason I say that is I tend to be someone that I'll get into a system and I'll mess around because that's how I know I learned. I think personally feel that this is a whole heck of a lot easier to learn than MRS ever was. And that's just because this is more geared. I feel like this is more geared towards what most people do, which is, you know, they go onto a website and they click inbound and they click transactions. It takes them to their inbound transactions. I mean, ultimately, you're not going to have somebody come in on day one, start making orders. But I do think that it's easier to train in this system than it is in an MRS. And also now we have this is what I was talking about. So the other thing that's a part of this, if you have the hub and you go to the hub. Go into your search and just type in ops. Should come up.
 
-**Interviewee**: I think, you know, it's just something that we've been working on. I've been working with Metrix one for the past, what is it, three years and a couple months. And, you know, it's just an understanding that the information is not going to be accurate the day before, I mean the day prior or two days prior, but it would be accurate a week from now. So that's usually when I trust the information, you know. Whatever happened last week, I know I can believe.
+Interviewer: Nope.
 
-**Interviewer**: I see. So it only works if you're logged in and you're looking at last week's information, but not logging in and looking at today or yesterday's information.
+Interviewee: There it is. So this right here. One of the things we did when we built this book. So here's inbound. So here's a check in with traffic. So that's a specific task that happens in our buildings. These green markers are all like they're kind of we call them a poor man. So if you go to scheduling tab, scheduling inbound, enter confirmation, hit enter. That's how you can confirm an appointment by confirmation. But then anywhere where we felt that it needed to be more in depth, we actually put a link in here. To. Directly to the S.W.I. So this is the S.W.I. for. Oops. Or assigning a truck to a door.
 
-**Interviewee**: No, it's going to be a little inaccurate. Maybe Monday's is going to be accurate, but, yeah, no. Last night is going to be inaccurate and whatever is happening right now in real time.
+Interviewer: OK.
 
-**Interviewer**: I see. Yeah. I'm trying to understand how important it is to know the daily information versus the weekly information. So the daily, the fact that it's inaccurate can cause staffing issues, right?
+Interviewee: And so this goes step by step with screenshots. Click on the scheduling tab at the top of the nav bar in front of the homepage like date calendar. So has step by step. So you should theoretically be able to hand this to a team member and they should be able to perform this task of assigning a truck to a door. Especially without somebody standing right over their shoulder. And we did that. So all the different tasks are set up that way. And like I said, it's it's a pretty robust if you look at it inbound, outbound, inventory link, office yard, labor management, additional tools. All that stuff is in here with a glossary of terms. So this has all the different tasks. So what's a location? What's an adjustment? All the different definitions. So pretty robust document.
 
-**Interviewee**: Yes.
+Interviewer: Are people actually referring back to documents and like reading it and using that to get their training?
 
-**Interviewer**: Okay. I see. Okay. Which aspect of Metrics 1 do you think is the most time-consuming? 
+Interviewee: I like to think so. Obviously, I'm not in the buildings. I would love to think that they are. And we have gone into buildings that have actually printed these out and put them in binders for their teams. So I do believe that people are using them now. Is it a, you know, a network wide knowledge thing to just go in and find what you need that? I don't know. We did. After we wrote this, we did bring all the general managers of the connect sites to various locations. And we did full training of the book and how to use it and what's in it. And we did that with the RVPs as well.
 
-**Interviewee**: You know, something that's been rolled out to us when I was in operations was trying to get our pallets per hour number up. So I would say just, you know, trying to maintain that number, it's a lot of time and thinking goes into that, you know, whether it's with our labor planning or, you know, trying to see where our shortcomings are, you know, because we have to research, okay, so my guy worked this many hours. My team worked these many hours, and I moved these many pallets this day. So we have to log into Connect and Linos and, you know, try to pull information there. We have to go into Dayforce, and Dayforce is what we use for the payroll and track the total hours worked by our team, you know, in order for us to get, you know, our number, which still doesn't match Metrics 1. So the whole pallets, the whole PPH thing is something that's been pushing us, and we're trying to improve on it here as a campus, but I feel like whatever Metrics 1 is pulling is not helping us,
+Interviewer: I see.
+
+Interviewee: OK, but but training for the employees, that's not something that is done. They may come in here and pull the documents, the SWIs out for that, but I don't think that they hand this to a new team member.
+
+Interviewer: OK. No. Which parts of connect would you say does not require any rework or any change?
+
+Interviewee: I don't know. I mean, I think there's always opportunity for improvement. What I say that there's areas that probably don't need as much focus. I mean, probably some of the more obscure areas that people aren't in every day. I mean, people don't spend a lot of time in admin. We don't they don't spend a lot of time in authorizations or warehouse configuration unless again, again, you're a, you know, a super user. But where you spend the bulk of your time inbound, inbound transactions, outbound, outbound transactions, scheduling, inventory control. So the physical PIDs and the inventory lots and then all these all these reports. This is where you spend so much of your time. One of the things I always thought would be really, really cool. Is if you could run one of these inventory reports and rather than it pop up in a PDF, it pops up with the ability to. Like if you're looking at a specific PID in the report or can you refresh that report? You know, right now, if I run a report. So one of the reports that I could tell you like right away, like this current planned activity report. So if I run this, this is designed to tell me that everything that's out there right now that I have to do. If we had the ability to update this real or refresh it without going back in and rerunning it. That would be, I mean, the buildings would be beside themselves. It's for reports like this. It's the outbound schedule. You know, if we had the ability to have some of these reports, you know, refresh. It would be. I can't even put a word to it. I mean, it would be humongous.
+
+Interviewer: Love it. OK, good to know.
+
+Interviewee: But, you know, I think it's the places people are every day are probably where. I hate the fact that that's up there. There, now it's gone. It's the places people are every day. The amount of transactions, the scheduling, the outbound. I'm not even sure people are in adjustments a lot, but I mean, you might have your inventory in there. It's billing. They're in billing every single week. So I would guarantee that if you started talking to some of the office teams and the CRRs, they're going to have a lot to say about the billing area. And then inventory controls, another one that probably, especially these two at the top, the inventory loss, the physical pallet IDs. If I was going to focus on trying to improve and make things easier for an end user, that current plant activity. Those are inventory control views. Those are places I would focus on first, because that's where people are every day, all day. I mean, that's where, you know, inventory lives in those screens. The office and the operations teams lives in the scheduling and the inbound and the outbound screen transaction screens. That's where they spend their entire day. That's how they run their business. So if I was going to focus on an area, that's where I would focus, because that's what's going to give us the most bang for our buck.
+
+Interviewer: This is good to know. A quick question, just something I noticed. What do those letters mean to you? Those each individual letter, IPL, Q, et cetera.
+
+Interviewee: You're muted, Rodney.
+
+Interviewer: I am muted, aren't I? Hold on.
+
+Interviewee: I'll show you. So those are the quick keys. So if I hit I, you'll see them, or Alt, you'll see them pop up. And on this first, so one of the difference between Connect and MRS, MRS, I had to hold down the Alt key. In Connect, it's a combination of both because they reuse letters. So if I just click I, those will come up, or Alt, and then I click I, and then I can click I again. And then I can click yes. Or do I need it? There it goes. And it'll take me to that screen.
+
+Interviewer: OK. We're reaching the end of our interview. Is there any other aspects that you would like for us to discuss that we haven't covered?
+
+Interviewee: No. I mean, I think at the end of the day, I think you're taking the right approach. I think if I send you some people to go talk to and we start pulling, because, I mean, there are certain people that we could ask, and at the end of the day, although their opinion matters, it probably is not going to get us to where we need to be. I think it's the people that are using this every day that we need to be talking to and getting feedback from.
+
+Interviewer: That's exactly what I need. I need the end users, the one who's always there working on it. That's his day, her day. These are the people that I need to talk to. So if you can shoot me a few names or emails, I would be so grateful.
+
+Interviewee: Yep, I can do that.
+
+Interviewer: All right. Well, thank you so much, and enjoy your long weekend.
+
+Interviewee: I'm actually flying out Monday to Portsmouth, so.
+
+Interviewer: And that's for work?
+
+Interviewee: Yeah, I got to do their Connect RF next week.
+
+Interviewer: Great. Enjoy.
+
+Interviewee: Yep.
+
+Interviewer: All right. Well, thank you so much for your time, and looking forward to speak to you again.
+
+Interviewee: Okay. Yeah, anytime. Take care.
+
+Interviewer: Bye.
+
+Interviewee: Bye.
