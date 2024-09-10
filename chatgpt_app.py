@@ -37,7 +37,7 @@ root = tk.Tk()
 root.title("ChatGPT Query App")
 
 # Set the default window size
-root.geometry("700x600")
+root.geometry("1200x800")
 
 # Make the window resizable
 root.rowconfigure(1, weight=1)
@@ -56,7 +56,7 @@ input_frame.rowconfigure(0, weight=1)
 input_frame.columnconfigure(0, weight=1)
 
 # Create a Text widget for the prompt with a Scrollbar and a maximum height
-prompt_text = tk.Text(input_frame, height=5, width=50, wrap=tk.WORD)
+prompt_text = tk.Text(input_frame, height=10, width=50, wrap=tk.WORD)
 prompt_text.grid(row=0, column=0, sticky="nsew")
 
 # Add a vertical scrollbar to the Text widget

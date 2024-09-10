@@ -31,7 +31,6 @@ def select_file():
         VIDEO_FILE = file_path
 
 # Function to handle transcription process
-# Function to handle transcription process
 def transcribe_interview():
     def run_transcription():
         # Start progress bar
@@ -140,19 +139,19 @@ select_button.pack(side=tk.LEFT, padx=5)
 selected_file_label = tk.Label(file_frame, text="No file selected")
 selected_file_label.pack(side=tk.LEFT)
 
-# Transcription button
+# Transcription button (not responsive horizontally)
 transcribe_button = tk.Button(root, text="TRANSCRIBE INTERVIEW", state=tk.DISABLED, command=transcribe_interview)
 transcribe_button.pack(pady=10)
 
-# Transcription display area
-transcription_display = ScrolledText(root, wrap=tk.WORD, width=80, height=20)
-transcription_display.pack(pady=10)
+# Transcription display area (scrollable and resizable)
+transcription_display = ScrolledText(root, wrap=tk.WORD)
+transcription_display.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 
-# Progress bar
+# Progress bar (not responsive horizontally)
 progress = ttk.Progressbar(root, orient=tk.HORIZONTAL, length=300, mode='indeterminate')
 progress.pack(pady=10)
 
-# Save to file button
+# Save to file button (not responsive horizontally)
 save_button = tk.Button(root, text="Save to File", state=tk.DISABLED, command=save_transcript)
 save_button.pack(pady=10)
 
