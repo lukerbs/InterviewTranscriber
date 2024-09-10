@@ -64,6 +64,9 @@ prompt_scrollbar = tk.Scrollbar(input_frame, command=prompt_text.yview)
 prompt_scrollbar.grid(row=0, column=1, sticky="ns")
 prompt_text['yscrollcommand'] = prompt_scrollbar.set
 
+# Allow the user to vertically resize the input Text widget, but not horizontally
+input_frame.grid_propagate(True)
+
 # Create a button to submit the prompt, placed below the prompt text box
 submit_button = tk.Button(input_frame, text="Send", command=send_prompt)
 submit_button.grid(row=1, column=0, pady=(5, 0))
