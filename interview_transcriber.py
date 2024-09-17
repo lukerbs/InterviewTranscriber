@@ -80,7 +80,12 @@ def transcribe_interview():
             transcription_display.update_idletasks()
 
             # Segment the transcript by speaker
-            speaker_segmented_transcript = segment_by_speaker(transcription=raw_transcript)
+            try:
+                speaker_segmented_transcript = segment_by_speaker(transcription=raw_transcript)
+            except Exception as e:
+                print(f"ERROR: {e}")
+                error_message = "***WARNING: Full transcript exceeded max token limit for OpenAI Chat Completion API. Failed to detect indiividual speakers (we are working on resolving this issue).***"
+                speaker_segmented_transcript = f"{error_message}\n{raw_transcript}"
 
             # Step 6: Updating UI with transcription
             transcription_display.delete(1.0, tk.END)
