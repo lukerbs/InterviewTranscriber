@@ -8,8 +8,8 @@ from pydub import AudioSegment
 import os
 import re
 
-from chatgpt import chatgpt, transcribe_audio, segment_by_speaker
-from utils import mp4_to_mp3, get_split_points, chunk_mp3_file  # Import the utility functions
+from chatgpt import chatgpt, segment_by_speaker
+from utils import mp4_to_mp3, get_split_points, chunk_mp3_file, transcribe_audio, combine_transcription_chunks
 
 AUDIO_DIR = "./audio_files/"
 CHUNKS_DIR = "./audio_files/audio_chunks/"
@@ -64,16 +64,8 @@ def transcribe_interview():
                 chunk_files = sorted(chunk_files, key=lambda x: int(re.findall(r'\d+', x)[0]))
 
                 # Step 4: Transcribing each chunk
-                raw_transcripts = []
-                for i, chunk_path in enumerate(chunk_files):
-                    transcription_display.insert(tk.END, f"Step 4: Transcribing chunk {i+1}/{len(chunk_files)}...\n")
-                    transcription_display.update_idletasks()
-                    
-                    raw_transcript = transcribe_audio(audio_file=chunk_path)
-                    raw_transcripts.append(raw_transcript.strip())
-
-                # Concatenate the transcripts
-                raw_transcript = " ".join(raw_transcripts)
+                transcription_display.insert(tk.END, f"Step 4: Transcribing audio chunks...\n")
+                raw_transcript = combine_transcription_chunks(chunk_files=chunk_files)
             else:
                 # Step 3 (No chunking needed): Transcribing entire file
                 transcription_display.insert(tk.END, "Step 3: Audio file is within max file size threshold. No segmenting required...\n")
@@ -81,7 +73,7 @@ def transcribe_interview():
 
                 transcription_display.insert(tk.END, "Step 4: Transcribing audio to text...\n")
                 transcription_display.update_idletasks()
-                raw_transcript = transcribe_audio(audio_file=audio_file)
+                raw_transcript = combine_transcription_chunks(chunk_files=[audio_file])
 
             # Step 5: Segmenting transcript by speaker
             transcription_display.insert(tk.END, "Step 5: Segmenting transcript by speaker...\n")

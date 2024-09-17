@@ -33,17 +33,6 @@ def chatgpt(prompt: str, model="gpt-4o", max_tokens=None):
     response = completion.choices[0].message.content
     return response
 
-def transcribe_audio(audio_file: str) -> str:
-    # Read audio file and create text transcription with Open AI API 
-    audio = open(audio_file, "rb")
-    print("Processing audio file with openAI speech to text. This may take a minute...")
-    transcription = client.audio.transcriptions.create(
-        model="whisper-1", 
-        file=audio,
-        response_format="text"
-    )
-    print("Raw transcript has been generated.")
-    return transcription
 
 def segment_by_speaker(transcription: str) -> str:
     """This function labels the speakers of a two way interview using the raw text of the interview transcription.

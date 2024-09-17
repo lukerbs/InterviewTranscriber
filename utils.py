@@ -1,5 +1,72 @@
 import os
+from datetime import timedelta
 from pydub import AudioSegment, silence
+import tiktoken
+from openai import OpenAI
+from dotenv import load_dotenv
+
+# Load environment from .env file
+load_dotenv()
+
+# Load the OpenAI API key from .env file
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise ValueError("Missing OpenAI API Key. Please check your .env file.")
+# Initialize openai API client
+client = OpenAI(api_key=OPENAI_API_KEY) 
+
+
+def transcribe_audio(audio_file: str, response_format:str='text') -> str:
+    """Converts mp3 audio file to transcription text of people speaking
+
+    Args:
+        audio_file (str): Path to the mp3 audio file
+        response_format (str, optional): The Whisper API response format. Enums: ['text', 'verbose_json'].
+
+    Returns:
+        str: Transcribed audio
+    """
+    # Read audio file and create text transcription with Open AI API 
+    audio = open(audio_file, "rb")
+    print("Processing audio file with openAI speech to text. This may take a minute...")
+    transcription = client.audio.transcriptions.create(
+        model="whisper-1", 
+        file=audio,
+        response_format=response_format
+    )
+
+    if response_format == 'verbose_json':
+        transcription_segments = []
+        full_text = transcription.text
+        for segment in transcription.segments:
+            segment_simplified = {
+                "text": segment['text'],
+                "start": round(segment['start'], 2),
+                "end": round(segment['end'], 2)
+            }
+            transcription_segments.append(segment_simplified)
+        transcription = {
+            "text": full_text, 
+            "segments": transcription_segments
+        }
+
+    print("Raw transcript has been generated.")
+    return transcription
+
+def convert_seconds_to_hhmmss(seconds: float) -> str:
+    """This function is used to convert seconds to HH:MM:SS formated timestamp
+
+    Args:
+        seconds (float): Number of seconds
+
+    Returns:
+        str: Number of seconds in HH:MM:SS format
+    """
+    td = timedelta(seconds=seconds)
+    total_seconds = int(td.total_seconds())
+    hours, remainder = divmod(total_seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    return f"{hours:02}:{minutes:02}:{seconds:02}"
 
 def get_audio_duration(mp3_path:str):
     audio = AudioSegment.from_mp3(mp3_path)
@@ -8,7 +75,6 @@ def get_audio_duration(mp3_path:str):
     length_in_seconds = round(length_in_seconds, 2)
     print(f"Length of the MP3 file: {length_in_seconds} seconds")
     return length_in_seconds
-
 
 def downsample_audio(audio_segment, target_sample_rate=16000):
     # Change the frame rate (sample rate)
@@ -192,6 +258,83 @@ def chunk_mp3_file(mp3_path: str, split_points: list[float]):
     
     print(f"Audio file has been split into {len(split_points_ms)-1} chunks.")
     return saved_chunks
+
+
+tokenizer = tiktoken.get_encoding("cl100k_base") 
+def get_num_tokens(string: str) -> int:
+    """Counts the total number of tokens in an input string
+
+    Args:
+        string (str): The raw input string
+
+    Returns:
+        int: The total number of tokens in string
+    """
+    tokens = tokenizer.encode(string)
+    total_tokens = len(tokens)
+    return total_tokens
+
+#mp4_to_mp3(mp4_path='./video_files/test.mp4', mp3_path='./audio_files/test.mp3')
+
+def combine_transcription_segments(segments: list[dict], clip_start_time:float=0.0) -> list[dict]:
+    """Combines segments from a segmented audio transcript into a single transcript, combining sentences. 
+        Result: Segments are at the sentence level, not based on pauses 
+
+    Args:
+        segments (list[dict]): _description_
+        clip_start_time (float, optional): _description_. Defaults to 0.0.
+
+    Returns:
+        list[dict]: _description_
+    """
+    new_segments = []
+    seg = ''
+    time_stamp = None
+    for i,segment in enumerate(segments):
+        if seg == '':
+            # Start of new segment
+            time_stamp = segment['start'] + clip_start_time
+            
+        seg += segment['text']
+        if seg and seg.strip()[-1] in ['.', '?', '!']:
+            # End of current segment
+            new_segments.append({'start': round(time_stamp, 2), 'timestamp': convert_seconds_to_hhmmss(time_stamp), 'text': seg})
+            seg = ''
+
+    return new_segments
+
+def combine_transcription_chunks(chunk_files: list[str]):
+    segmented_chunks = []
+    clip_start_time = 0.0
+    clip_end_time = 0.0
+    for i, audio_file in enumerate(chunk_files):
+        audio_duration = get_audio_duration(mp3_path=audio_file)
+        print(f"AUDIO DURATION: {audio_duration}")
+        clip_end_time += audio_duration
+        
+        trascription = transcribe_audio(audio_file=audio_file, response_format='verbose_json')
+
+        chunk_transcription = trascription['text']
+        segments = trascription['segments']
+
+        print("\nCHUNK TRANSCRIPTION: ")
+        print(chunk_transcription)
+
+        new_segments = combine_transcription_segments(segments=segments, clip_start_time=clip_start_time)
+        segmented_chunks.extend(new_segments)
+        clip_start_time = clip_end_time
+
+    print(f"Merging transcript chunks...")
+    complete_raw_transcript = ''
+    for segment in segmented_chunks:
+        complete_raw_transcript += f"[{segment['timestamp']}] {segment['text'].strip()}\n"
+
+    
+    transcription_tokens = get_num_tokens(complete_raw_transcript)
+    print(f"TOTAL TRANSCRIPTION TOKENS: {transcription_tokens}")
+    print('COMPLETE RAW TRANSCRIPT:')
+    print(complete_raw_transcript)
+    return complete_raw_transcript
 
 
     
