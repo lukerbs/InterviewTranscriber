@@ -1,0 +1,7 @@
+Extract the information from the section of the 2-person interview transcription wrapped inside the EXTRACT_START and EXTRACT_END indicators with triple asterisks (***). 
+The individual speakers are not labeled, so you should infer the speaker based on the context.
+IMPORTANT: ONLY extract the information from the segment of the transcript wrapped in triple aterisks (i.e. ***EXTRACT_START***content to extract***EXTRACT_END***), but you can use any preceding or following portions of the transcript to better understand the context of the conversation.
+Note:
+    - There could be two or more consecutive timestamps [HH:MM:SS] where it is the same person speaking.
+    - A new timestamp does not necessarily indicate that it is a new person speaking.
+    

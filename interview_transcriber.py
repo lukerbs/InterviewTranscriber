@@ -8,6 +8,7 @@ from pydub import AudioSegment
 import os
 import re
 
+from transcript_processor import process_raw_transcript
 from chatgpt import chatgpt, segment_by_speaker
 from utils import mp4_to_mp3, get_split_points, chunk_mp3_file, transcribe_audio, combine_transcription_chunks
 
@@ -75,17 +76,20 @@ def transcribe_interview():
                 transcription_display.update_idletasks()
                 raw_transcript = combine_transcription_chunks(chunk_files=[audio_file])
 
+            print(f"\n\nRAW TRANSCRIPT:")
+            print(raw_transcript.splitlines())
+
             # Step 5: Segmenting transcript by speaker
             transcription_display.insert(tk.END, "Step 5: Segmenting transcript by speaker...\n")
             transcription_display.update_idletasks()
 
             # Segment the transcript by speaker
             try:
-                speaker_segmented_transcript = segment_by_speaker(transcription=raw_transcript)
+                speaker_segmented_transcript = process_raw_transcript(raw_transcript=raw_transcript)
             except Exception as e:
                 print(f"ERROR: {e}")
-                error_message = "***WARNING: Full transcript exceeded max token limit for OpenAI Chat Completion API. Failed to detect indiividual speakers (we are working on resolving this issue).***"
-                speaker_segmented_transcript = f"{error_message}\n{raw_transcript}"
+                error_message = "***WARNING: Something went wrong. Failed to identify speakers. Please report this bug. Below is the raw transcript.***"
+                speaker_segmented_transcript = f"{error_message}\n\n{raw_transcript}"
 
             # Step 6: Updating UI with transcription
             transcription_display.delete(1.0, tk.END)
