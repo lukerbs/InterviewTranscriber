@@ -1,0 +1,5 @@
+Extract the information from the 2-person interview transcription. The individual speakers are not labeled, so you should infer the speaker based on the context.
+Note:
+    - There could be two or more consecutive timestamps [HH:MM:SS] where it is the same person speaking.
+    - A new timestamp does not necessarily indicate that it is a new person speaking.
+    

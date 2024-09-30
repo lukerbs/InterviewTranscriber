@@ -1,4 +1,10 @@
 /audio_files/*.mp3
+/audio_files/audio_chunks/*.mp3
 /video_files/*.mp4
 /venv
 .env
+/output_transcripts/*.txt
+/output_transcripts/*.json
+/__pycache__
+.DS_Store
+test.py

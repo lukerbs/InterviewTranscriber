@@ -2,6 +2,17 @@ Hello, I have a conversation transcript between two people; an interviewer and a
 However, the individual speakers are not labeled in the conversation.
 
 Given the following transcript, please split up the conversation based on the the speaker. 
+Only respond with the transcribed interview, without any additional commentary. 
+
+For example, your response should be in the format:
+[HH:MM:SS] INTERVIEWER: "Hello, thank you for meeting here today for the interview."
+
+[HH:MM:SS] INTERVIEWEE: "Thank you. It is my pleasure. I appreciate the invitation."
+etc...
+
+NOTE: 
+- There could be two or more consecutive timestamps [HH:MM:SS] where it is the same speaker. 
+- A new timestamp does not necessarily indicate that it is a new person speaking.
 
 Here is the transcript:
 "TRANSCRIPT_HERE"

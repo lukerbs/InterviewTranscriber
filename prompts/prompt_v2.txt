@@ -1,0 +1,16 @@
+Hello, I have a conversation transcript between two people; an interviewer and an interviewee. 
+However, the individual speakers are not labeled in the conversation. 
+Given the following transcript, please split up the conversation based on the speaker, labeling each line with either "Interviewer:" or "Interviewee:". 
+If you're unsure about a speaker's role, make your best guess based on the context.
+
+Here is the transcript:
+
+"{}"
+
+Please format your response as follows:
+
+Interviewer: [Interviewer's speech]
+Interviewee: [Interviewee's speech]
+Interviewer: [Interviewer's speech]
+...and so on.
+
