@@ -1,48 +1,116 @@
+
 # Interview Transcriber
-## About 
-Interview Transcriber is a Python tool used to convert MP4 videos of a 2-person interview into a text transcription of the two individuals speaking. The resulting text transcription is saved to a .txt file.
 
-# Instructions
-## Installing Visual Studio Code
-1. Download and Install Visual Studio Code from:
-    - https://code.visualstudio.com/download
-2. Open the Visual Studio Code desktop app
-3. Install the "Python" Visual Studio Code extension by Microsoft
+## About
 
-## Clone the Repo from GitHub
-1. Open your terminal or command line
-2. Run: `git clone https://github.com/lukerbs/InterviewTranscriber.git`
-3. Enter (or 'cd') into the repo folder by running:
-    - `cd InterviewTranscriber`
+Interview Transcriber is a Python application designed to convert MP4 videos of a 2-person interview into a text transcription. It distinguishes between speakers and provides a clear and structured output.
 
-## Installation of Dependencies
-1. Make sure to have Python installed on your device
-    - You can check by running: `python3 --version`
-    - make sure you have 3.10 or higher installed
-3. Open the project in terminal
-4. Create a Python virtual environment in the project root directory by running the commands in terminal:
-    - `python3 -m venv venv`  (create the virtual env)
-    - `source venv/bin/activate`  (activate the virtual env)
-5. Install the required dependencies
-    - `pip3 install -r requirements.txt`
-6. Install ffmpeg
-    - Step1: install homebrew if you don't have it
-        - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)`
-    - Step2: install ffmpeg
-        - `brew install ffmpeg`
-## Set Up OpenAI API Key
-1. Get your OpenAI API Key:
-    - Get your OpenAI API key from a team lead or create your own personal API key at https://platform.openai.com/docs/overview 
-2. Create a new file called '.env':
-    - Run: `cp .env-example .env`
-3. Copy the contents of '.env-example' into the '.env' file you just created. 
-4. Replace the 'xxxxxx' in the .env file with your OpenAI API key (do not wrap the API key with quotes).
-5. Save the changes to the .env file.
+## Features
+
+- Converts video interviews into text transcription.
+- Automatically distinguishes between speakers.
+- Outputs structured and readable text files.
+
+## Prerequisites
+
+- Python 3.10 or higher.
+- OpenAI API key.
+- `ffmpeg` installed on your system.
+
+## Getting Started
+
+### Installing Visual Studio Code
+
+1. Download and Install Visual Studio Code from [here](https://code.visualstudio.com/download).
+2. Open Visual Studio Code and install the "Python" extension by Microsoft.
+
+### Clone the Repository from GitHub
+
+1. Open your terminal or command line.
+2. Run:
+
+    ```bash
+    git clone https://github.com/lukerbs/InterviewTranscriber.git
+    ```
+
+3. Navigate into the repository folder:
+
+    ```bash
+    cd InterviewTranscriber
+    ```
+
+### Installation of Dependencies
+
+1. Ensure Python is installed on your device by running:
+
+    ```bash
+    python3 --version
+    ```
+
+    Make sure the version is 3.10 or higher.
+2. Open the project in a terminal.
+3. Create a Python virtual environment:
+
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+4. Install the required dependencies:
+
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+5. Install `ffmpeg` using Homebrew:
+    - If you don't have Homebrew, install it:
+
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+    - Then install ffmpeg:
+
+    ```bash
+    brew install ffmpeg
+    ```
+
+### Set Up OpenAI API Key
+
+1. Obtain your OpenAI API Key from a team lead or create your own at [OpenAI Platform](https://platform.openai.com/docs/overview).
+2. Create a new file named `.env`:
+
+    ```bash
+    cp .env-example .env
+    ```
+
+3. Copy the contents from `.env-example` to the `.env` file.
+4. Place your OpenAI API key in the `.env` file, replacing `xxxxxx`.
+5. Save your changes.
 
 ## Usage
-1. go to convert_mp4_to_mp3 
-2. put in the folder path with the mp4s
-3. go to speech_to_text.py
-4. copy file path of mp3 to line 8 (AUDIO_FILE =)
-5. click the run button or type python3 speech_to_text.py
-6. After running the program, the resulting transcript will be saved to './output_transcripts/final_transcript.txt'
+
+1. Launch the application by running:
+
+    ```bash
+    python app.py
+    ```
+
+2. A GUI will appear. Use the "Select Video File" button to choose your MP4 video file.
+3. Click "TRANSCRIBE INTERVIEW" to start the transcription process.
+4. Once completed, the transcription is displayed. You can save the transcript using the "Save to File" button.
+
+## Directory Structure
+
+- `app.py`: Main application script.
+- `transcript_processor.py`: Handles the transcription processing.
+- `audio_files/`: Directory for storing audio files and chunks.
+- `.env-example`: Template for environment variables including API keys.
+
+## Contributing
+
+Feel free to open issues or submit pull requests with improvements.
+
+## License
+
+This project is licensed under the terms of the MIT license.
